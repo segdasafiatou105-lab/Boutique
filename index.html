@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Projet Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="accueil" class="hero">
+      <h1>Bienvenue dans ma boutique fictive</h1>
+      <p>Découvrez mes Produits stylisés • Livraison fictive • Qualité démonstration</p>
+    </section>
+  </header>
+
+  <main>
+    <section id="a-propos">
+      <h2>À propos de moi</h2>
+      <div class="about-container">
+        <img src="images/about.jpg" alt="Ma photo">
+        <p>Ma Boutique Fictive est un projet pédagogique. Ici on présente des produits, on teste des interactions JavaScript et on travaille le responsive design ,elle est dédiée aux saveurs authentiques de l’Italie</p>
+      </div>
+    </section>
+
+    <section id="produits">
+      <h2>Mes produits</h2>
+      <div class="produits-grid">
+        <article class="card">
+          <img src="images/produit1.jpg" alt="produit 1">
+          <h3> Pâte de tomate italienne</h3>
+          <p>Description du produit 1:: Issue des meilleures tomates mûries au soleil de la région de Parme, notre pâte de tomate est riche, onctueuse et pleine de goût. Parfaite pour sublimer vos sauces, pizzas ou plats mijotés à seulement 15OOO FRANCS le carton.</p>
+          <a href="#">Voir plus</a>
+        </article>
+        <article class="card">
+          <img src="images/produit2.jpg" alt="Produit 2">
+          <h3>Huiles d’olive extra vierge</h3>
+          <p>Description du produits 2: Pressées à froid selon la tradition italienne, nos huiles d’olive viennent tout droit des oliveraies de Toscane. Goût fruité, légèrement poivré – un délice pour vos salades, pâtes et bruschettas à seulement 6000 FRANCS la bouteuil. </p>
+          <a href="#">Voir plus</a>
+        </article>
+        <article class="card">
+          <img src="images/produit3.jpg" alt="Produit 3">
+          <h3>Spaghetti italiens 100% blé dur</h3>
+          <p>Description du produit 3: Des pâtes longues, résistantes à la cuisson, fabriquées en Italie avec du blé de qualité. À accompagner d’une sauce tomate maison ou d’un simple filet d’huile d’olive pour un repas savoureux à seulement 25000 FRANCS le carton.</p>
+          <a href="#">Voir plus</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contactez-moi</h2>
+      <form id="contact-form">
+        <label>Nom
+          <input type="text" name="nom" id="nom" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" id="email" required>
+        </label>
+        <label>Message
+          <textarea name="message" id="message" rows="5" required></textarea>
+        </label>
+        <button type="submit">Envoyer</button>
+        <p id="form-message" class="confirmation"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MonNom. Tous droits réservés. <a href="https://github.com">GitHub</a></p>
+    <button id="theme-toggle">Changer de thème</button>
+    <button id="scroll-top">↑ Haut de page</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
