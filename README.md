@@ -30,3 +30,8 @@ Ce projet est destiné à des **fins d’apprentissage et de démonstration**, i
 - **CSS3** : Mise en forme et design
 - **JavaScript** : Interactions (formulaire, boutons thème et scroll)
 - **Images** : Présentation des produits et de la section à propos.
+## Installation et utilisation
+
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com/segdasafiatou105-lab/Boutique.git
