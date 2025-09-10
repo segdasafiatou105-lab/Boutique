@@ -56,7 +56,7 @@ nav a:hover, nav a:focus {
   border-radius: 10px;
 }
 
-.projects-grid {
+.produits-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
@@ -100,7 +100,7 @@ button:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .about-container, .projects-grid {
+  .about-container, .produits-grid {
     flex-direction: column;
   }
 
